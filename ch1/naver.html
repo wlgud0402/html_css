@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ko">
     <head>
+        <link rel="stylesheet" href="./uni.css">
         <meta charset="utf-8" />
         <title>네이버</title> 
         <!-- title은 위에 창의 제목,  favicon은 그옆의 작은 아이콘 -->
@@ -8,14 +9,57 @@
         <!-- ./ 는 현재폴더를 의미>> 점을 붙임으로 -->
     </head>
     <body>
-    <h1>
-        <a href="https://www.naver.com/">네이버</a>
-    </h1>
-    <h2>검색창</h2>
-    <fieldset>
-        <legend>검색</legend>
-        <input />
-        <!-- <textarea></textarea>   긴글쓸때>>> 텍스트창 크기조절도 가능 마우스로 -->
-    </fieldset>
+    <header>
+        <div class="header_center">   <!--가운데정렬용 div -->
+            <div class="else_link">네이버를 시작페이지로</div>
+            <div class="else_link">쥬니어네이버</div>
+            <div class="else_link">해피빈</div>
+            <div class="header_search">
+                <h1>
+                    <a href="https://www.naver.com/">네이버</a>
+                </h1>
+                <h2>검색창</h2>
+                <fieldset>
+                    <legend>검색</legend>
+                    <input />
+                    <!-- <textarea></textarea>   긴글쓸때>>> 텍스트창 크기조절도 가능 마우스로 -->
+                </fieldset>
+            </div> 
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li>메일</li>
+            <li>카페</li>
+            <li>블로그</li>
+            <li>지식인</li>
+            <li>네이버페이</li>
+            <li>네이버쇼핑</li>
+        </ul>   
+    </nav>
+    <main>
+        <h2>실시간 검색어</h2>
+        <h3>연합뉴스</h3>
+        <ol>
+            <li>김지형 천재프로그래머 되다</li>
+            <li>한국의 자랑 김씨형제들</li>
+            <li>빌게이츠와 만남을가진 김기현, 김지형 프로그래머</li>
+        </ol>
+        <h3>언론사 목록</h3>
+        <ul>
+            <li><img src="./매일경제.png" alt="매일경제"></li>
+            <li><img src="./와이티엔.png" alt="와이티엔"></li>
+        </ul>
+        <h3>로그인</h3>
+        <h3>뉴스</h3>
+        <h3>법률</h3>
+        <h3>쇼핑</h3>
+        <h6>쇼핑</h6>
+    </main>
+    <footer>
+        <div>공지사항</div>
+        <div>Creators</div>
+        <div>회사소개</div>
+    </footer>
     </body>
 </html>

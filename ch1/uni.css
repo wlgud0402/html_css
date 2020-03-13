@@ -1,0 +1,22 @@
+.header_center{
+    margin:0 auto;
+    width: 930px;      
+}
+/* div태그같은경우 margin:0 auto를해도 가운데정렬이 되지 않는다
+이는 div 자체가 넓이를 100%를 가지고 있으므로
+넓이를 정해줘서 줄여야함                        */
+
+.header_search >h1 {
+    width: 280px;
+    display: inline-block;
+}
+.header_search >h2 {
+    display:none;
+}
+.header_search >fieldset {
+    width: 520px;
+    display: inline-block;
+}
+.else_link {
+    display: inline-block;
+}
